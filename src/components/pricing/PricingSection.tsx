@@ -71,7 +71,7 @@ export const PricingSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <PricingTier
           name="Starter"
-          price="$99"
+          price="₦99,000"
           description="Perfect for small teams and startups beginning their collaborative journey"
           features={[
             "Up to 25 concurrent users",
@@ -83,7 +83,7 @@ export const PricingSection = () => {
         />
         <PricingTier
           name="Professional"
-          price="$299"
+          price="₦299,000"
           description="Advanced features for growing teams and businesses"
           features={[
             "Up to 100 concurrent users",
